@@ -1,3 +1,8 @@
+# bot-nslp
+Es un proyecto de segundo año del Instituto Nuestra Señora de La Paz, cuyo fin es agregar la funcionalidad de un support-bot a la página del instituto para mejorar la comunicación con la comunidad.
+Se tomó como base un tutorial de YouTube que ofrecía un diseño Front-End definido para centrar el foco en las funcionalidades del bot.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
