@@ -1,0 +1,12 @@
+/build/ 
+/bin/ 
+/dist/ 
+/nbproject/private/ 
+/nbproject/build-impl.xml 
+/nbproject/build-impl.xml~ 
+/resources/commons.ES.msg 
+/resources/ES.msg 
+/journals/ 
+nbproject/genfiles.properties
+jax-ws-catalog.xml
+jaxws-build.xml
