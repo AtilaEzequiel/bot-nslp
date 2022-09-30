@@ -1,0 +1,110 @@
+{
+    "data": {
+        "presentacion": "Hola nombre! Soy el asistente virtual de La Paz. Contame en qué te puedo ayudar hoy.",
+        "menu": [
+            {
+                "principal": [
+                    "Por favor, escribí el número de la opción que elijas:",
+                    "Carreras 🎓",
+                    "Inscripciones 📝",
+                    "Otra información "
+                ],
+                "carreras": [
+                    "Por favor, escribí el número de la opción que elijas:",
+                    "Administración de Empresas",
+                    "Analista de Sistemas",
+                    "Periodismo con Orientación Deportiva",
+                    "Profesorado de Inglés",
+                    "Psicopedagogía"
+                ]
+            }
+        ],
+        "carreras": [
+            {
+                "carrera": "Administracion",
+                "titulo": "Técnico Superior en Administración de Empresas",
+                "duracion": "3 años",
+                "descripcion": "El Técnico Superior en Administración de Empresas será competente para desempeñarse en forma autónoma o en relación de dependencia como:",
+                "incumbencias": [
+                    "Director y administrador de organizaciones empresariales.",
+                    "Asesor en los procesos administrativos, económicos y contables.",
+                    "Organizador de los diseños de los sistemas de información, evaluación y control de la gestión administrativa de todo tipo de entes.",
+                    "Entre otras..."
+                ],
+                "mas-info":"Para más información podés acceder al siguiente link: Administración de empresas",
+                "link": ""
+            },
+            {
+                "carrera": "Analista",
+                "titulo": "Analista de Sistemas de Información",
+                "duracion": "3 años",
+                "descripcion": "El Analista de sistemas de información  está capacitado para desempeñarse en forma autónoma o en relación de dependencia, como:",
+                "incumbencias": [
+                    "Miembro de departamentos de sistemas en organizaciones industriales, comerciales y de servicios.",
+                    "Asesor en los procesos administrativos, económicos y contables.",
+                    "Organizador de los diseños de los sistemas de información, evaluación y control de la gestión administrativa de todo tipo de entes.",
+                    "Entre otras..."
+                ],
+                "mas-info":"Para más información podés acceder al siguiente link: Analista de sistemas",
+                "link": ""
+            },
+            {
+                "carrera": "Periodismo",
+                "titulo": "Técnico Superior en Periodismo con Orientación Deportiva",
+                "duracion": "3 años",
+                "descripcion": "El Técnico Superior en en Periodismo con Orientación Deportiva será capacitado para desempeñarse en forma autónoma o en relación de dependencia como:",
+                "incumbencias": [
+                    "Periodista en medios gráficos, radiales y televisivos.",
+                    "Comentarista deportivo en radio y televisión.",
+                    "Observador, lector sensible e investigador de los acontecimientos sociales que marcan y determinan las tendencias de la sociedad.",
+                    "Entre otras..."
+                ],
+                "link": ""
+            },
+            {
+                "carrera": "Ingles",
+                "titulo": "Profesor/a de Educación Superior en Inglés",
+                "duracion": "3 años",
+                "descripcion": "El Profesor de Educación Superior en Inglés, podrá desempeñarse en el Nivel Inicial, Primario, Medio y Superior. Al finalizar su carrera, será capaz de:",
+                "incumbencias": [
+                    "Reconocer los conceptos y principios teóricos y prácticos que estructuran la educación inclusiva, en el ámbito nacional e internacional.",
+                    "Contribuir a la construcción de escuelas como comunidades de aprendizaje que respeten, promuevan y valoren los logros de todos los estudiantes.",
+                    "Entre otras..."
+                ],
+                "link": ""
+            },
+            {
+                "carrera": "Psicopedagogia",
+                "titulo": "Psicopedagogo/a",
+                "duracion": "4 años",
+                "descripcion": "El Psicopedagogo/a será competente para desempeñarse en:",
+                "incumbencias": [
+                    "Realizar tareas de prevención de problemáticas específicas del aprendizaje en cualquier ámbito que lo requiera.",
+                    "Asesorar con respecto a la caracterización del proceso de aprendizaje, sus perturbaciones y/o fracturas.",
+                    "Realizar acciones que posibiliten la detección de las perturbaciones y/o fracturas en el proceso de aprendizaje.",
+                    "Entre otras..."
+                ],
+                "link": ""
+            }
+        ],
+        "inscripcion": [
+            {
+                "descripcion": "Para el ciclo 2023 las inscripciones comienzan el 01/09/2022 y se deberá presentar la siguiente documentación en el Instituto, de lunes a viernes de 17 a 21 hs:",
+                "requerimientos": [
+                    "DNI original y fotocopias (anverso y reverso)",
+                    "Partida de nacimiento original y fotocopias (anverso y reverso)",
+                    "Título Secundario original y/o Certificado Analítico con sus respectivas fotocopias (anverso y reverso)",
+                    "1 foto del estilo 4x4"
+                ],
+                "descripcion2": "Si no contás con Titulo Secundario enviá info para saber más",
+                "titulosecundario": [
+                    "Si no tenés el título pero sí todas las materias aprobadas, debés traer certificado de título en trámite actualizado.",
+                    "Si finalizaste el secundario, pero te quedó pendiente alguna/as materia/as, debés traer el  certificado actualizado de finalización de estudios, con las materias que te faltan rendir.",
+                    "Si estás cursando en este momento el último año del secundario, debés traer el certificado de este último año de estudios (5º o 6º año)"
+                ],
+                "formulario":"Para recibir más información te pedimos completar el siguiente formulario: Formulario de inscripción",
+                "link":""
+            }
+        ]
+    }
+}

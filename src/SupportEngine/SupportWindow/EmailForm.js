@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import { styles } from '../styles';
 import { LoadingOutlined } from '@ant-design/icons';
-import Avatar from "../Avatar";
+import ChatButton from '../ChatButton';
 
 const EmailForm = props => {
     const [userName, setUserName] = useState('');
@@ -23,10 +23,10 @@ const EmailForm = props => {
                 }
             }}
         >
-            <div style={{ height: '0px' }}>
+   {        /* <div style={{ height: '0px' }}>
                 <div style={styles.stripe} />
             </div>
-
+*/}
             <div
                 className='transition-5'
                 style={{
@@ -52,13 +52,13 @@ const EmailForm = props => {
             />
 
             <div style={{ position: 'absolute', height: '100%', width: '100%', textAlign: 'center' }}>
-                <Avatar
+               {/* <Avatar
                     style={{
                         position: 'relative',
                         left: 'calc(50% - 44px)',
                         top: '10%'
                     }}
-                />
+                />*/}
                 <div style={styles.topText}>
                     Bienvenidos a nuestro <br /> chat de ayuda 👋
                 </div>

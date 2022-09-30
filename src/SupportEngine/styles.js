@@ -1,30 +1,36 @@
 export const styles = {
-    chatWithMeButton: {
+    chatButton: {
         cursor: 'pointer',
-        boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.23)',
+        boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.13)',
         // Border
         borderRadius: '50%',
-        // Background 
-        backgroundImage: `url(https://www.nicepng.com/png/full/128-1284530_chat-icon-png-white-chat-icon-white-png.png)`, 
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        backgroundSize: '30px',
-        backgroundColor: '#7a39e0',
-        // Size
-        width: '75px',
-        height: '75px',
     },
-    avatarHello: { 
+    button: {
+        cursor: 'pointer',
+        backgroundColor: '#FCE0BE',
+        boxShadow: 'none',
+        color: '#453318',
+        '&:hover': {
+            backgroundColor: '#FFF',
+            border: '4px solid #FCE0BE',
+            boxShadow: 'none'
+        },
+        '&:active': {
+            boxShadow: 'none',
+            backgroundColor: '#FCE0BE',
+            borderColor: '#FCE0BE',
+    }},
+    avatarHello: {
         // Position
-        position: 'absolute', 
-        left: 'calc(-100% - 80px - 28px)', 
-        top: 'calc(50% - 24px)', 
+        position: 'absolute',
+        left: 'calc(-100% - 80px - 28px)',
+        top: 'calc(50% - 24px)',
         // Layering
         zIndex: '10000',
         boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.23)',
         // Border
         padding: '12px 12px 12px 16px',
-        borderRadius: '24px', 
+        borderRadius: '24px',
         // Color
         backgroundColor: '#f9f0ff',
         color: 'black',
@@ -42,66 +48,67 @@ export const styles = {
         backgroundColor: 'white',
         // Border
         borderRadius: '12px',
-        border: `2px solid #7a39e0`,
+        border: `2px solid #FCE0BE`,
         overflow: 'hidden',
         // Shadow
         boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',
     },
-    emailFormWindow: { 
-        width: '100%',  
+    chatFormWindow: {
+        width: '100%',
         overflow: 'hidden',
-        transition: "all 0.5s ease",
-        WebkitTransition: "all 0.5s ease",
-        MozTransition: "all 0.5s ease",
+        transition: 'all 0.5s ease',
+        WebkitTransition: 'all 0.5s ease',
+        MozTransition: 'all 0.5s ease',
     },
     stripe: {
         position: 'relative',
         top: '-45px',
         width: '100%',
         height: '308px',
-        backgroundColor: '#7a39e0',
+        backgroundColor: '#FCE0BE',
         transform: 'skewY(-12deg)',
     },
-    topText: { 
+    topText: {
         position: 'relative',
-        width: '100%', 
-        top: '15%', 
-        color: 'white', 
-        fontSize: '24px', 
+        width: '100%',
+        top: '15%',
+        bottom: '15%',
+        color: '#453318',
+        fontSize: '24px',
         fontWeight: '600',
     },
-    emailInput: { 
+    emailInput: {
         width: '66%',
         textAlign: 'center',
         outline: 'none',
         padding: '12px',
         borderRadius: '12px',
-        border: '2px solid #7a39e0',
+        border: '2px solid #FCE0BE',
     },
-    bottomText: { 
-        position: 'absolute', 
-        width: '100%', 
-        top: '60%', 
-        color: '#7a39e0', 
-        fontSize: '24px', 
-        fontWeight: '600' 
+    bottomText: {
+        position: 'absolute',
+        width: '100%',
+        top: '60%',
+        color: '#FCE0BE',
+        fontSize: '24px',
+        fontWeight: '600'
     },
-    loadingDiv: { 
-        position: 'absolute', 
-        height: '100%', 
-        width: '100%', 
-        textAlign: 'center', 
+    loadingDiv: {
+        position: 'absolute',
+        height: '100%',
+        width: '100%',
+        textAlign: 'center',
         backgroundColor: 'white',
     },
-    loadingIcon: { 
-        color: '#7a39e0', 
-        position: 'absolute', 
-        top: 'calc(50% - 51px)', 
-        left: 'calc(50% - 51px)',  
+    loadingIcon: {
+        color: '#FCE0BE',
+        position: 'absolute',
+        top: 'calc(50% - 51px)',
+        left: 'calc(50% - 51px)',
         fontWeight: '600',
     },
     chatEngineWindow: {
-        width: '100%',  
+        width: '100%',
         backgroundColor: '#fff',
     }
 }

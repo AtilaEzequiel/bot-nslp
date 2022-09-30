@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import Avatar from './Avatar';
+import ChatButton from './ChatButton';
 import SupportWindow from './SupportWindow';
 
 const SupportEngine = () => {
@@ -12,9 +12,9 @@ const SupportEngine = () => {
                 setVisible(false)
             }
         }
-        document.addEventListener("mousedown", handleClickOutside);
+        document.addEventListener('mousedown', handleClickOutside);
         return () => {
-            document.removeEventListener("mousedown", handleClickOutside); 
+            document.removeEventListener('mousedown', handleClickOutside); 
         }
     }, [ref]);
 
@@ -23,7 +23,7 @@ const SupportEngine = () => {
             <SupportWindow
                 visible={visible}
             />
-            <Avatar
+            <ChatButton
                 onClick={() => setVisible(visible ? false : true)}
                 style={{
                     position: 'fixed',

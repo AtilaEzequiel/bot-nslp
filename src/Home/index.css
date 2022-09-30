@@ -80,22 +80,22 @@
   select {
     text-transform: none;
   }
-  [type="button"],
-  [type="reset"],
-  [type="submit"],
+  [type='button'],
+  [type='reset'],
+  [type='submit'],
   button {
     -webkit-appearance: button;
   }
-  [type="button"]::-moz-focus-inner,
-  [type="reset"]::-moz-focus-inner,
-  [type="submit"]::-moz-focus-inner,
+  [type='button']::-moz-focus-inner,
+  [type='reset']::-moz-focus-inner,
+  [type='submit']::-moz-focus-inner,
   button::-moz-focus-inner {
     border-style: none;
     padding: 0;
   }
-  [type="button"]:-moz-focusring,
-  [type="reset"]:-moz-focusring,
-  [type="submit"]:-moz-focusring,
+  [type='button']:-moz-focusring,
+  [type='reset']:-moz-focusring,
+  [type='submit']:-moz-focusring,
   button:-moz-focusring {
     outline: 1px dotted ButtonText;
   }
@@ -116,20 +116,20 @@
   textarea {
     overflow: auto;
   }
-  [type="checkbox"],
-  [type="radio"] {
+  [type='checkbox'],
+  [type='radio'] {
     box-sizing: border-box;
     padding: 0;
   }
-  [type="number"]::-webkit-inner-spin-button,
-  [type="number"]::-webkit-outer-spin-button {
+  [type='number']::-webkit-inner-spin-button,
+  [type='number']::-webkit-outer-spin-button {
     height: auto;
   }
-  [type="search"] {
+  [type='search'] {
     -webkit-appearance: textfield;
     outline-offset: -2px;
   }
-  [type="search"]::-webkit-search-decoration {
+  [type='search']::-webkit-search-decoration {
     -webkit-appearance: none;
   }
   ::-webkit-file-upload-button {
@@ -191,7 +191,7 @@
     width: 100%;
     position: relative;
   }
-  [class*="col-"] {
+  [class*='col-'] {
     width: 100%;
     display: flex;
     padding-left: 15px;
@@ -1144,8 +1144,8 @@
     overflow-x: hidden !important;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: -apple-system, system-ui, "Poppins","Segoe UI", Helvetica, Arial,
-      sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-family: -apple-system, system-ui, 'Poppins','Segoe UI', Helvetica, Arial,
+      sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   }
   div {
     border: 0;
@@ -1174,24 +1174,24 @@
   ul.normalize li {
     padding: 0;
   }
-  input[type="email"]:active,
-  input[type="email"]:focus,
-  input[type="number"]:active,
-  input[type="number"]:focus,
-  input[type="password"]:active,
-  input[type="password"]:focus,
-  input[type="text"]:active,
-  input[type="text"]:focus,
+  input[type='email']:active,
+  input[type='email']:focus,
+  input[type='number']:active,
+  input[type='number']:focus,
+  input[type='password']:active,
+  input[type='password']:focus,
+  input[type='text']:active,
+  input[type='text']:focus,
   textarea:active,
   textarea:focus {
     outline: 0;
     border-color: #80bdff;
     box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) inset;
   }
-  input[type="email"]::placeholder,
-  input[type="number"]::placeholder,
-  input[type="password"]::placeholder,
-  input[type="text"]::placeholder,
+  input[type='email']::placeholder,
+  input[type='number']::placeholder,
+  input[type='password']::placeholder,
+  input[type='text']::placeholder,
   textarea::placeholder {
     opacity: 0.6;
     color: currentColor;
@@ -1225,7 +1225,7 @@
   .gradient-overlay:before {
     top: 0;
     left: 0;
-    content: "";
+    content: '';
     width: 100%;
     height: 100%;
     position: absolute;
@@ -1445,7 +1445,7 @@
     }
   }
   @media screen and (max-width: 767px) {
-    [class*="col-"] {
+    [class*='col-'] {
       padding-left: 0 !important;
       padding-right: 0 !important;
     }
@@ -1886,7 +1886,7 @@
     margin-left: calc(-40px / 2);
     margin-right: calc(-40px / 2);
   }
-  .dorik-row-w0t3z90u [class*="col-"] {
+  .dorik-row-w0t3z90u [class*='col-'] {
     padding-left: calc(40px / 2);
     padding-right: calc(40px / 2);
   }
@@ -2561,7 +2561,7 @@
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 80px;
-    background-image: url("https://cdn.dorik.com/5e373b6c43a72a001f56dbf6/images/bg-shape_lu9x14ja.svg");
+    background-image: url('https://cdn.dorik.com/5e373b6c43a72a001f56dbf6/images/bg-shape_lu9x14ja.svg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -3116,7 +3116,7 @@
     margin-left: calc(-28px / 2);
     margin-right: calc(-28px / 2);
   }
-  .dorik-row-de5eg33a [class*="col-"] {
+  .dorik-row-de5eg33a [class*='col-'] {
     padding-left: calc(28px / 2);
     padding-right: calc(28px / 2);
   }
@@ -3306,7 +3306,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #48347c;
-    background-image: url("https://cdn.dorik.com/5e373b6c43a72a001f56dbf6/images/bg-shape_lu9x14ja.svg");
+    background-image: url('https://cdn.dorik.com/5e373b6c43a72a001f56dbf6/images/bg-shape_lu9x14ja.svg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
