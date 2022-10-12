@@ -1,7 +1,7 @@
 export const styles = {
     chatWithMeButton: {
         cursor: 'pointer',
-        boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.23)',
+        boxShadow: '0px 0px 16px 6px green',
         // Border
         borderRadius: '50%',
         // Background 
@@ -9,7 +9,7 @@ export const styles = {
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         backgroundSize: '30px',
-        backgroundColor: '#9f964a',
+        backgroundColor: '#f8cea2',
         // Size
         width: '75px',
         height: '75px',
@@ -26,10 +26,11 @@ export const styles = {
         padding: '12px 12px 12px 16px',
         borderRadius: '24px', 
         // Color
-        backgroundColor: '#9f964a',
+        backgroundColor: '#f8cea2',
         color: 'black',
     },
     supportWindow: {
+        
         // Position
         position: 'fixed',
         bottom: '116px',
@@ -39,13 +40,13 @@ export const styles = {
         height: '530px',
         maxWidth: 'calc(100% - 48px)',
         maxHeight: 'calc(100% - 48px)',
-        backgroundColor: 'white',
+        backgroundColor: 'black',
         // Border
         borderRadius: '12px',
-        border: `2px solid #9f964a`,
+        border: `2px solid #f8cea2`,
         overflow: 'hidden',
         // Shadow
-        boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',
+        boxShadow: '0px 0px 16px 6px green',
     },
     emailFormWindow: { 
         width: '100%',  
@@ -59,14 +60,14 @@ export const styles = {
         top: '-45px',
         width: '100%',
         height: '308px',
-        backgroundColor: '#9f964a',
+        backgroundColor: '#f8cea2',
         transform: 'skewY(-12deg)',
     },
     topText: { 
         position: 'relative',
         width: '100%', 
         top: '15%', 
-        color: 'white', 
+        color: 'black', 
         fontSize: '24px', 
         fontWeight: '600',
     },
@@ -76,13 +77,13 @@ export const styles = {
         outline: 'none',
         padding: '12px',
         borderRadius: '12px',
-        border: '2px solid #9f964a',
+        border: '2px solid #f8cea2',
     },
     bottomText: { 
         position: 'absolute', 
         width: '100%', 
         top: '60%', 
-        color: '#9f964a', 
+        color: '#f8cea2', 
         fontSize: '24px', 
         fontWeight: '600' 
     },
@@ -94,7 +95,7 @@ export const styles = {
         backgroundColor: 'white',
     },
     loadingIcon: { 
-        color: '#9f964a', 
+        color: '#f8cea2', 
         position: 'absolute', 
         top: 'calc(50% - 51px)', 
         left: 'calc(50% - 51px)',  
