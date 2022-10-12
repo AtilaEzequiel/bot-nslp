@@ -3,15 +3,15 @@
 }
 
 .ce-my-message-bubble {
-  background-color: #f8cea2 !important;
+  background-color: #9f964a !important;
 }
 
 .ce-chat-title-text {
-  color: #f8cea2 !important;
+  color: #9f964a !important;
 }
 
 .ce-chat-subtitle-text {
-  color: #f8cea2 !important;
+  color: #9f964a !important;
   font-weight: 600;
 }
 
@@ -19,11 +19,11 @@
   position: relative !important;
   bottom: 2px !important;
   left: 1px !important;
-  background-color: #f8cea2 !important;
+  background-color: #9f964a !important;
 }
 
 .ce-my-message-timestamp {
-  color: #f8cea2 !important;
+  color: #9f964a !important;
 }
 
 .transition-3 {
