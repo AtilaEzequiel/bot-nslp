@@ -31,7 +31,7 @@ const ChatButton = props => {
                         ...{ border: hovered ? '1px solid #f9f0ff' : '4px solid #f9f0ff' },
                         width: 75,
                         height: 75,
-                        backgroundColor: '#FCE0BE'
+                        backgroundColor: '#f5bb83'
                     }}>
                     <CommentOutlinedIcon fontSize='large'/>
                 </Avatar>

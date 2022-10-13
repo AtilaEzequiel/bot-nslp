@@ -1,24 +1,25 @@
 export const styles = {
     chatButton: {
         cursor: 'pointer',
-        boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.13)',
+        //boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.13)',
+        boxShadow: '0px 0px 16px 6px green',
         // Border
         borderRadius: '50%',
     },
     button: {
         cursor: 'pointer',
-        backgroundColor: '#FCE0BE',
+        backgroundColor: '#f5bb83',
         boxShadow: 'none',
         color: '#453318',
         '&:hover': {
             backgroundColor: '#FFF',
-            border: '4px solid #FCE0BE',
+            border: '4px solid #f5bb83',
             boxShadow: 'none'
         },
         '&:active': {
             boxShadow: 'none',
-            backgroundColor: '#FCE0BE',
-            borderColor: '#FCE0BE',
+            backgroundColor: '#f5bb83',
+            borderColor: '#f5bb83',
     }},
     avatarHello: {
         // Position
@@ -48,10 +49,11 @@ export const styles = {
         backgroundColor: 'white',
         // Border
         borderRadius: '12px',
-        border: `2px solid #FCE0BE`,
+        border: `2px solid #f5bb83`,
         overflow: 'hidden',
         // Shadow
-        boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',
+       // boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',
+        boxShadow: '0px 0px 16px 6px green',
     },
     chatFormWindow: {
         width: '100%',
@@ -65,7 +67,7 @@ export const styles = {
         top: '-45px',
         width: '100%',
         height: '308px',
-        backgroundColor: '#FCE0BE',
+        backgroundColor: '#f5bb83',
         transform: 'skewY(-12deg)',
     },
     topText: {
@@ -83,13 +85,13 @@ export const styles = {
         outline: 'none',
         padding: '12px',
         borderRadius: '12px',
-        border: '2px solid #FCE0BE',
+        border: '2px solid #f5bb83',
     },
     bottomText: {
         position: 'absolute',
         width: '100%',
         top: '60%',
-        color: '#FCE0BE',
+        color: '#f5bb83',
         fontSize: '24px',
         fontWeight: '600'
     },
@@ -101,7 +103,7 @@ export const styles = {
         backgroundColor: 'white',
     },
     loadingIcon: {
-        color: '#FCE0BE',
+        color: '#f5bb83',
         position: 'absolute',
         top: 'calc(50% - 51px)',
         left: 'calc(50% - 51px)',
