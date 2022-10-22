@@ -1293,7 +1293,8 @@
 
   .dorik-btn:hover {
     font-size: 25px;
-    border: 2px solid rgb(187, 125, 2);
+    border: 2px solid green;
+    color: black;
     /* boxShadow: '2px 2px 16px 6px green', */
   }
 
@@ -1664,8 +1665,10 @@
   
   .dorik-nav-ynq9x73v .dorik-nav--btn-a9h97xdg:hover {
     font-size: 20px;
-    color:green;
-    border: 2px solid #ff253a;
+    /* color:#f5bb83; */
+    color:black;
+    background-color:#f5bb83;
+    border: 2px solid green;
   }
   /* DROPDOWN */
   

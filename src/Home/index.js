@@ -86,7 +86,7 @@ export const htmlCode = `
                       <ul class="dorik-nav--btns normalize">
                         <li>
                           <a
-                            href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKHRMPGDmWCFdjGpcWQftlGLVpvTNZGbWXwDmtlXVkPjQNrhsnpNFVsgtpnhNllHqkQtftg"
+                            href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVJNPMkZTmqdvhSwlDlGGDKGcTkVttvXddnLrNxQjLzTQdThNjszPcMXrHlkkdFhjKRDWM"
                             class="dorik-nav--btn dorik-nav--btn-a9h97xdg contact-sales"
                             ><span class="dorik-nav--btn-text"
                               >Consulta por mail</span
@@ -116,7 +116,7 @@ export const htmlCode = `
               </div>
               <div class="dorik-button-ra0ilohg-wrapper  ">
                 <a
-                  href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKHRMPGDmWCFdjGpcWQftlGLVpvTNZGbWXwDmtlXVkPjQNrhsnpNFVsgtpnhNllHqkQtftg"
+                  href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVJNPMkZTmqdvhSwlDlGGDKGcTkVttvXddnLrNxQjLzTQdThNjszPcMXrHlkkdFhjKRDWM"
                   class="dorik-nav--btn dorik-nav--btn-a9h97xdg contact-sales"
                   ><span class="dorik-btn dorik-button-ra0ilohg"
                     >Consulta por mail</span
@@ -150,25 +150,7 @@ export const htmlCode = `
               <div class="dorik-text dorik-text-inpwtn4r ">
                   
               </div>
-              <div class="dorik-button-12nkqyce-wrapper  ">
-                <button class="dorik-btn dorik-button-12nkqyce ">
-                  <svg
-                    aria-hidden="true"
-                    focusable="false"
-                    data-prefix="fas"
-                    data-icon="arrow-right"
-                    class="svg-inline--fa fa-arrow-right fa-w-14 fa-fw icon"
-                    role="img"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"
-                    ></path></svg
-                  >Learn More
-                </button>
-              </div>
+              
             </div>
           </div>
           <div class="col-lg-1/2 ">
@@ -189,23 +171,7 @@ export const htmlCode = `
                 
               </div>
               <div class="dorik-button-3baepr8t-wrapper  ">
-                <button class="dorik-btn dorik-button-3baepr8t ">
-                  <svg
-                    aria-hidden="true"
-                    focusable="false"
-                    data-prefix="fas"
-                    data-icon="arrow-right"
-                    class="svg-inline--fa fa-arrow-right fa-w-14 fa-fw icon"
-                    role="img"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"
-                    ></path></svg
-                  >Learn More
-                </button>
+                
               </div>
             </div>
           </div>
@@ -232,7 +198,7 @@ export const htmlCode = `
           <div class="col-lg-1/3 col-md-1/3 ">
             <div class="column-inner dorik-column-b7upwuf2  1/3">
               <div class="dorik-text dorik-text-k2xzpsrw ">
-                Copyright (c) 2020 dPay. LLC.
+                Copyright (c) 2022 ChatBot. LLC.
               </div>
             </div>
           </div>
